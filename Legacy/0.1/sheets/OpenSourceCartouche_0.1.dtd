@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!ELEMENT Cartouche   (Component, License, Team, Legal, Misc?)>
+<!ATTLIST Cartouche Version CDATA #REQUIRED>
+
+<!ELEMENT Component (ComponentName, ComponentVersion, ComponentHomepage, Status?, ReleaseDate?, Type?, MainTech?)>
+<!ELEMENT ComponentName (#PCDATA)>
+<!ELEMENT ComponentVersion (#PCDATA)>
+<!ELEMENT ComponentHomepage (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+<!ELEMENT ReleaseDate (#PCDATA)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT MainTech (#PCDATA)>
+
+<!ELEMENT License (LicenseName, LicenseVersion, LicenseHomepage)>
+<!ELEMENT LicenseName (#PCDATA)>
+<!ELEMENT LicenseVersion (#PCDATA)>
+<!ELEMENT LicenseHomepage (#PCDATA)>
+
+<!ELEMENT Team (Developer, Contributor*)>
+
+<!ELEMENT Developer (DeveloperName, DeveloperEmail, DeveloperCompany)>
+<!ELEMENT DeveloperName (#PCDATA)>
+<!ELEMENT DeveloperEmail (#PCDATA)>
+<!ELEMENT DeveloperCompany (#PCDATA)>
+
+<!ELEMENT Contributor (ContributorName, ContributorEmail, ContributorCompany)>
+<!ELEMENT ContributorName (#PCDATA)>
+<!ELEMENT ContributorEmail (#PCDATA)>
+<!ELEMENT ContributorCompany (#PCDATA)>
+
+<!ELEMENT Legal (Copyright, Patents*, Cryptography*)>
+<!ELEMENT Copyright (#PCDATA)>
+
+<!ELEMENT Patents (Number, PublicationDate*, Description*)>
+<!ELEMENT Number (#PCDATA)>
+<!ELEMENT PublicationDate (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+
+<!ELEMENT Cryptography (Name)>
+<!ELEMENT Name (#PCDATA)>
+
+<!ELEMENT Misc (FileNumber?, Data?, Dependencies*)>
+<!ELEMENT FileNumber (#PCDATA)>
+
+<!ELEMENT Data (Volume, Unit)>
+<!ELEMENT Volume (#PCDATA)>
+<!ELEMENT Unit (#PCDATA)>
+
+<!ELEMENT Dependencies (Component+)>

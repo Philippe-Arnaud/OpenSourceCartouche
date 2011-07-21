@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cartouche SYSTEM "http://www.opensourcecartouche.org/dtd/0.1.dtd">
+<Cartouche Version="0.1">
+    <Component>
+        <ComponentName>Open Source Cartouche</ComponentName>
+        <ComponentVersion>0.1</ComponentVersion>
+        <ComponentHomepage>http://www.opensourcecartouche.org</ComponentHomepage>
+        <Status>Beta</Status>
+        <ReleaseDate>11/05/2011</ReleaseDate>
+        <Type>Methodology</Type>
+        <MainTech>Open Document</MainTech>
+    </Component>
+    <License>
+        <LicenseName>GNU Free Documentation License</LicenseName>
+        <LicenseVersion>1.3</LicenseVersion>
+        <LicenseHomepage>http://www.gnu.org/licenses/fdl.html</LicenseHomepage>
+    </License>
+    <Team>
+        <Developer>
+            <DeveloperName>Philippe-Arnaud HARANGER</DeveloperName>
+            <DeveloperEmail>philippe-arnaud.haranger@atosorigin.com</DeveloperEmail>
+            <DeveloperCompany>Atos Origin</DeveloperCompany>
+        </Developer>
+    </Team>
+    <Legal>
+        <Copyright>Atos Origin</Copyright>
+    </Legal>
+    <Misc>
+        <FileNumber>2</FileNumber>
+        <Data>
+            <Volume>1.2</Volume>
+            <Unit>Mo</Unit>
+        </Data>
+        <Dependencies>
+            <Component>
+                <ComponentName>Libre Office</ComponentName>
+                <ComponentVersion>3.2</ComponentVersion>
+                <ComponentHomepage>http://www.libreoffice.org</ComponentHomepage>
+            </Component>
+        </Dependencies>
+    </Misc>
+</Cartouche>
