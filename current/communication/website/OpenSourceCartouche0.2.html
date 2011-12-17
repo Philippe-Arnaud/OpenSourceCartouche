@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="treestyles.css" type="text/css"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!--This file has been created with toxhtml.xsl--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>OpenSourceCartouche0.2</title><link rel="stylesheet" href="OpenSourceCartouche0.2.html_files/treestyles.css" type="text/css"/><script type="text/javascript" src="OpenSourceCartouche0.2.html_files/marktree.js"> 
+	</script></head><body><div class="basetop"><a href="#" onclick="expandAll(document.getElementById('base'))">Expand</a> -
+<a href="#" onclick="collapseAll(document.getElementById('base'))">Collapse</a></div><div id="base" class="basetext"><ul>
+	<li class="col" id="FMID_1139799761FM"><div class="nodecontent" style="font-size:100%;font-weight:bold;">OpenSourceCartouche0.2</div>
+		<ul class="subexp">
+	<li class="col" id="FMID_225187320FM"><div class="nodecontent" style="color:#000000;font-size:100%;">metadata</div>
+		<ul class="subexp">
+	<li class="basic" id="FMID_1500956634FM"><div class="nodecontent">Description :   Higher level element containing metedata for cartouche (incl. workflow)<br/>Cardinality :    1, Mandatory<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_1480564279FM"><div class="nodecontent" style="font-size:100%;">author</div>
+		<ul class="sub">
+	<li class="exp" id="FMID_202792178FM"><div class="nodecontent" style="font-size:100%;">name</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1076208135FM"><div class="nodecontent">Description :   Cartouche Author's name<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;name&gt;Philippe-Arnaud HARANGER&lt;/name&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1165870312FM"><div class="nodecontent" style="font-size:100%;">email</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_599376340FM"><div class="nodecontent">Description :   Cartouche Author's email<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;email&gt;philippe-arnaud.harange@atos.net&lt;/email&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_754229448FM"><div class="nodecontent" style="font-size:100%;">[comment]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1840532124FM"><div class="nodecontent">Description :   Cartouche Author's comment<br/>Cardinality :    0..1, Optional<br/>Format :          Text<br/>Values :          Any<br/>Example :       &lt;comment&gt;This cartouche is for example purpose and not to be used AS IS&lt;/comment&gt;</div></li></ul></li></ul></li>
+	<li class="exp" id="FMID_327390494FM"><div class="nodecontent" style="font-size:100%;">[reviewer]</div>
+		<ul class="sub">
+	<li class="exp" id="FMID_655543655FM"><div class="nodecontent" style="font-size:100%;">name</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1595484090FM"><div class="nodecontent">Description :   Cartouche Reviewer's name<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;name&gt;Raphaël Semeteys&lt;/name&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1075129896FM"><div class="nodecontent" style="font-size:100%;">email</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_114670809FM"><div class="nodecontent">Description :   Cartouche Reviewer's email<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;email&gt;raphaël.semeteys@atos.net&lt;/email&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1546734177FM"><div class="nodecontent" style="font-size:100%;">reviewDate</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1279139295FM"><div class="nodecontent">Description :   Cartouche Review Date<br/>Cardinality :    1, Mandatory<br/>Format :          Date (YYYY-MM-DD)<br/>Values :          Any<br/>Example :       &lt;reviewDate&gt;2011-09-02&lt;/reviewDate&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_250033824FM"><div class="nodecontent" style="font-size:100%;">Comment</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_267418414FM"><div class="nodecontent">Description :   Cartouche Reviewer's comment<br/>Cardinality :    1, Mandatory<br/>Format :          Text<br/>Values :          Any<br/>Example :       &lt;comment&gt;This cartouche is correct and I approve its content/comment&gt;</div></li></ul></li></ul></li>
+	<li class="exp" id="FMID_968251554FM"><div class="nodecontent" style="font-size:100%;">dates</div>
+		<ul class="sub">
+	<li class="exp" id="FMID_1714923957FM"><div class="nodecontent" style="font-size:100%;">creation</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1550233461FM"><div class="nodecontent">Description :   Cartouche Creation Date<br/>Cardinality :    1, Mandatory<br/>Format :          Date (YYYY-MM-DD)<br/>Values :          Any<br/>Example :       &lt;creation&gt;2011-09-01&lt;/creation&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_130547673FM"><div class="nodecontent" style="font-size:100%;">[Update]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_787247778FM"><div class="nodecontent">Description :   Cartouche Review Date<br/>Cardinality :    0..1, Optional<br/>Format :          Date (YYYY-MM-DD)<br/>Values :          Any<br/>Example :       &lt;update&gt;2011-09-03&lt;/update&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1831015154FM"><div class="nodecontent" style="font-size:100%;">[Validation]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_572794443FM"><div class="nodecontent">Description :   Cartouche Review Date<br/>Cardinality :    0..1, Optional<br/>Format :          Date (YYYY-MM-DD)<br/>Values :          Any<br/>Example :       &lt;validation&gt;2011-09-03&lt;/validation&gt;</div></li></ul></li></ul></li>
+	<li class="exp" id="FMID_602623956FM"><div class="nodecontent" style="font-size:100%;">cartoucheVersion</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1766699186FM"><div class="nodecontent">Description :   Open Source Cartouche specification Version this cartouche complies with<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;cartoucheVersion&gt;0.2 Beta&lt;/cartoucheVersion&gt;</div></li></ul></li></ul></li>
+	<li class="col" id="FMID_1051347137FM"><div class="nodecontent" style="font-size:100%;">component</div>
+		<ul class="subexp">
+	<li class="basic" id="FMID_337071618FM"><div class="nodecontent">Description :   Higher level element containing information about the component<br/>Cardinality :    1, Mandatory<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_433957112FM"><div class="nodecontent" style="font-size:100%;">name</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1617329441FM"><div class="nodecontent">Description :   Contains the name of the component being identified<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;name&gt;Open Source Cartouche&lt;/name&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_150229335FM"><div class="nodecontent" style="font-size:100%;">version</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1589627129FM"><div class="nodecontent">Description :   Contains the version of the component being identified<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;version&gt;0.2&lt;/version&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1237809668FM"><div class="nodecontent" style="font-size:100%;">status</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1678869542FM"><div class="nodecontent">Description :   Contains the status of the component at the time being identified<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Blueprint, Alpha, Beta, RC, Final<br/>Example :       &lt;status&gt;0.2&lt;/status&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1166848117FM"><div class="nodecontent" style="font-size:100%;">releaseDate</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1238780676FM"><div class="nodecontent">Description :   Contains the date of release of the component being identified<br/>Cardinality :    1, Mandatory<br/>Format :          Date (YYYY-MM-DD)<br/>Values :          Any<br/>Example :       &lt;date&gt;2011-09-01&lt;/date&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_671537630FM"><div class="nodecontent" style="font-size:100%;">homepage</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_27686120FM"><div class="nodecontent">Description :   Contains the homepage of the component being identified<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;homepage&gt;http://www.opensourcecartouche.org&lt;/homepage&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_291307165FM"><div class="nodecontent" style="font-size:100%;">description</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1295521714FM"><div class="nodecontent">Description :   Contains a description of the component being identified<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;description&gt;Open Source identification method&lt;/description&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_375053269FM"><div class="nodecontent" style="font-size:100%;">archetype</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1187300872FM"><div class="nodecontent">Description :   Contains the archetype of the component being identified<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Plugin, Stand Alone, Library, Framework, Bundle, Documentation, Other<br/>Comment:       See http://www.opensourcecartouche.org/?p=54 for more information<br/>Example :       &lt;archetype&gt;Documentation&lt;/archetype&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_475269162FM"><div class="nodecontent" style="font-size:100%;">[vendor]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_890687878FM"><div class="nodecontent">Description :   Contains the vendor of the component being identified<br/>Cardinality :    0..1, Optional<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;vendor&gt;Open Source Center&lt;/vendor&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_477222341FM"><div class="nodecontent" style="font-size:100%;">[tags]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1186427072FM"><div class="nodecontent">Description :   Contains tags for quick search and reference<br/>Cardinality :    0..1, Optional<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;tags&gt;Open, FLOSS, Identification, Method&lt;/tags&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1996575971FM"><div class="nodecontent" style="font-size:100%;">[mainTech]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_753411027FM"><div class="nodecontent">Description :   Contains the main technology behind the component<br/>Cardinality :    0..1, Optional<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;mainTech&gt;Open Document Format&lt;/mainTech&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1927999366FM"><div class="nodecontent" style="font-size:100%;">[checksum]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1251423098FM"><div class="nodecontent">Description :   Contains the component's checksum for consistency guarantee<br/>Cardinality :    0..1, Optional<br/>Format :          Algorithm/checksum<br/>Values :          Any<br/>Example :       &lt;checksum&gt;MD5/748872f003c34f528649b360853c6c4c&lt;/checksum&gt;</div></li></ul></li></ul></li>
+	<li class="col" id="FMID_346225819FM"><div class="nodecontent" style="font-size:100%;">license</div>
+		<ul class="subexp">
+	<li class="basic" id="FMID_970969961FM"><div class="nodecontent">Description :   Higher level element containing information about component's licence<br/>Cardinality :    1, Mandatory<br/>Format :          XML element<br/>Comment :       This element will be soon replaced by the Licence Cartouche<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_1592823642FM"><div class="nodecontent" style="font-size:100%;">name</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_225269441FM"><div class="nodecontent">Description :   Contains the common name of the licence the component is released under<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;name&gt;GNU Free Documentation Licence&lt;/name&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_20422773FM"><div class="nodecontent" style="font-size:100%;">version</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_192776757FM"><div class="nodecontent">Description :   Contains the version the licence the component is released under<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;version&gt;1.3&lt;/version&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_896601378FM"><div class="nodecontent" style="font-size:100%;">[homepage]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_495303958FM"><div class="nodecontent">Description :   Contains the homepage of the licence the component is released under<br/>Cardinality :    0..1, Optional<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;homepage&gt;http://www.gnu.org/licenses/fdl.html&lt;/homepage&gt;</div></li></ul></li></ul></li>
+	<li class="col" id="FMID_153166410FM"><div class="nodecontent" style="font-size:100%;">team</div>
+		<ul class="subexp">
+	<li class="basic" id="FMID_912714777FM"><div class="nodecontent">Description :   Higher level element containing information about component's development team<br/>Cardinality :    1, Mandatory<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_1973284830FM"><div class="nodecontent" style="font-size:100%;">number</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1101719395FM"><div class="nodecontent">Description :   Contains the number of people involved in the development of the component<br/>Cardinality :    1, Mandatory<br/>Format :          Integer<br/>Values :          Any<br/>Example :       &lt;number&gt;2&lt;/number&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1976458248FM"><div class="nodecontent" style="font-size:100%;">[developers]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_152870373FM"><div class="nodecontent">Description :   High level element containing at least one developer element<br/>Cardinality :    0..1, Optional<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_648331085FM"><div class="nodecontent" style="font-size:100%;">developer</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_106053068FM"><div class="nodecontent">Description :   Element containing developers information<br/>Cardinality :    1..n, Mandatory<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_999450135FM"><div class="nodecontent" style="font-size:100%;">name</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1670164485FM"><div class="nodecontent">Description :   Component's developer name<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;name&gt;Philippe-Arnaud HARANGER&lt;/name&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_794074629FM"><div class="nodecontent" style="font-size:100%;">email</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1123319116FM"><div class="nodecontent">Description :   Component's developer email<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;email&gt;philippe-arnaud.haranger@atos.net&lt;/email&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1982602656FM"><div class="nodecontent" style="font-size:100%;">[company]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1990642930FM"><div class="nodecontent">Description :   Component's developer company<br/>Cardinality :    0..1, Optional<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;company&gt;Atos&lt;/company&gt;</div></li></ul></li></ul></li></ul></li>
+	<li class="exp" id="FMID_575376486FM"><div class="nodecontent" style="font-size:100%;">[contributors]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1728385082FM"><div class="nodecontent">Description :   High level element containing at least one contributor element<br/>Cardinality :    0..1, Optional<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_1381848857FM"><div class="nodecontent" style="font-size:100%;">contributor</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1122441425FM"><div class="nodecontent">Description :   Element containing contributors information<br/>Cardinality :    1..n, Mandatory<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_331092700FM"><div class="nodecontent" style="font-size:100%;">name</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1598133501FM"><div class="nodecontent">Description :   Component's contributor name<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;name&gt;Raphaël SEMETEYS&lt;/name&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_614618812FM"><div class="nodecontent" style="font-size:100%;">email</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_474427797FM"><div class="nodecontent">Description :   Component's contributor email<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;email&gt;raphael.semeteys@atos.net&lt;/email&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_171526240FM"><div class="nodecontent" style="font-size:100%;">[company]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1133040385FM"><div class="nodecontent">Description :   Component's contributor company<br/>Cardinality :    0..1, Optional<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;company&gt;Atos&lt;/company&gt;</div></li></ul></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FMID_370680648FM"><div class="nodecontent" style="font-size:100%;">legal</div>
+		<ul class="subexp">
+	<li class="basic" id="FMID_1281176248FM"><div class="nodecontent">Description :   Higher level element containing industrial property related information<br/>Cardinality :    1, Mandatory<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_802424667FM"><div class="nodecontent" style="font-size:100%;">copyright</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_327711975FM"><div class="nodecontent">Description :   Contains the copyright applicable on the component<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;copyright&gt;Atos&lt;/copyright&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_618549733FM"><div class="nodecontent" style="font-size:100%;">[patents]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1388825198FM"><div class="nodecontent">Description :   High level element containing at least one patent element<br/>Cardinality :    0..1, Optional<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_1317404095FM"><div class="nodecontent" style="font-size:100%;">patent</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_906917760FM"><div class="nodecontent">Description :   Element containing patents information<br/>Cardinality :    1..n, Mandatory<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_96617659FM"><div class="nodecontent" style="font-size:100%;">number</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1682573482FM"><div class="nodecontent">Description :   Patent's Publication Number<br/>Cardinality :    1, Mandatory<br/>Format :          PatentOfficePrefix/PatentNumber<br/>Values :          Any<br/>Example :       &lt;number&gt;US/4405829&lt;/number&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1284501871FM"><div class="nodecontent" style="font-size:100%;">[name]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1680719632FM"><div class="nodecontent">Description :   Patent's short description<br/>Cardinality :    0..1, Optional<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;name&gt;Cryptography communications system and method&lt;/name&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1930156897FM"><div class="nodecontent" style="font-size:100%;">[publicationDate]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_529436283FM"><div class="nodecontent">Description :   Patent's publication date<br/>Cardinality :    0..1, Optional<br/>Format :          Date (YYYY-MM-DD)<br/>Values :          Any<br/>Example :       &lt;publicationDate&gt;1983-09-20&lt;/publicationDate&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_157567184FM"><div class="nodecontent" style="font-size:100%;">[description]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_852945163FM"><div class="nodecontent">Description :   Patent's Long description<br/>Cardinality :    0..1, Optional<br/>Format :          Text<br/>Values :          Any<br/>Example :       &lt;description&gt;A cryptography communications system and method...&lt;/description&gt;</div></li></ul></li></ul></li></ul></li>
+	<li class="exp" id="FMID_240608190FM"><div class="nodecontent" style="font-size:100%;">[ciphers]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1028148890FM"><div class="nodecontent">Description :   High level element containing at least one cipher element<br/>Cardinality :    0..1, Optional<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_357146995FM"><div class="nodecontent" style="font-size:100%;">cipher</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_702142939FM"><div class="nodecontent">Description :   Element containing ciphers information<br/>Cardinality :    1..n, Mandatory<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_544041361FM"><div class="nodecontent" style="font-size:100%;">name</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1736507687FM"><div class="nodecontent">Description :   cipher usual name<br/>Cardinality :    1, Mandatory<br/>Format :          String<br/>Values :          Any<br/>Example :       &lt;name&gt;RSA&lt;/name&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1383584638FM"><div class="nodecontent" style="font-size:100%;">[exportRestrictions]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_870646339FM"><div class="nodecontent">Description :   List of countries restricted for exporting the cipher <br/>Cardinality :    0..1, Optional<br/>Format :          List of countries in the ISO 3166 representation<br/>Values :          Any<br/>Example :       &lt;exportResctictions&gt;IR&lt;/exportResctictions&gt;</div></li></ul></li></ul></li></ul></li></ul></li>
+	<li class="col" id="FMID_983537133FM"><div class="nodecontent" style="font-size:100%;">[misc]</div>
+		<ul class="subexp">
+	<li class="basic" id="FMID_1128793000FM"><div class="nodecontent">Description :   Higher level element containing miscelaneous information<br/>Cardinality :    1, Mandatory<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_1920727561FM"><div class="nodecontent" style="color:#000000;font-size:100%;">[comment]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1266446489FM"><div class="nodecontent">Description :   General comment<br/>Cardinality :    0..1, Optional<br/>Format :          Text<br/>Values :          Any<br/>Example :       &lt;comment&gt;Blah, blah, blah&lt;/comment&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1737297669FM"><div class="nodecontent" style="font-size:100%;">[dependencies]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1511933567FM"><div class="nodecontent">Description :   External components needed in order to get the component to work properly.<br/>Cardinality :    0..1, Optional<br/>Format :          Text<br/>Values :          Any<br/>Comment :     We need to refine this element (Unique component identifier, Subset of a cartouche?)<br/>Example :       &lt;dependencies&gt;Python 2.3&lt;/dependencies&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1956069125FM"><div class="nodecontent" style="font-size:100%;">[fileNumber]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1269471951FM"><div class="nodecontent">Description :   Number of files the component is composed of<br/>Cardinality :    0..1, Optional<br/>Format :          Integer<br/>Values :          Any<br/>Example :       &lt;fileNumber&gt;14&lt;/fileNumber&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_604228069FM"><div class="nodecontent" style="font-size:100%;">[data]</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_176166348FM"><div class="nodecontent">Description :   Element containing data volume information<br/>Cardinality :    0..1, Optional<br/>Format :          XML element<br/>Values :          Nothing</div></li>
+	<li class="exp" id="FMID_393179027FM"><div class="nodecontent" style="font-size:100%;">volume</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_434611982FM"><div class="nodecontent">Description :   Value of data volume<br/>Cardinality :    1, Mandatory<br/>Format :          Integer<br/>Values :          Any<br/>Example :       &lt;fileNumber&gt;2&lt;/fileNumber&gt;</div></li></ul></li>
+	<li class="exp" id="FMID_1272693654FM"><div class="nodecontent" style="font-size:100%;">unit</div>
+		<ul class="sub">
+	<li class="basic" id="FMID_1673019658FM"><div class="nodecontent">Description :   Unit of data volume<br/>Cardinality :    1, Mandatory<br/>Format :         String<br/>Values :          Any<br/>Example :       &lt;fileNumber&gt;Mbyte&lt;/fileNumber&gt;</div></li></ul></li></ul></li></ul></li></ul></li></ul></div></body></html>
