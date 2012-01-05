@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Cartouche">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="Component">
+          <xs:sequence>
+            <xs:element ref="License"/>
+            <xs:element ref="Team"/>
+            <xs:element ref="Legal"/>
+            <xs:element ref="Misc"/>
+          </xs:sequence>
+          <xs:attribute name="Version" use="required" type="xs:decimal"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="License">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="LicenseName"/>
+        <xs:element ref="LicenseVersion"/>
+        <xs:element ref="LicenseHomepage"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LicenseName" type="xs:string"/>
+  <xs:element name="LicenseVersion" type="xs:decimal"/>
+  <xs:element name="LicenseHomepage" type="xs:anyURI"/>
+  <xs:element name="Team">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Developer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Developer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DeveloperName"/>
+        <xs:element ref="DeveloperEmail"/>
+        <xs:element ref="DeveloperCompany"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeveloperName" type="xs:string"/>
+  <xs:element name="DeveloperEmail" type="xs:string"/>
+  <xs:element name="DeveloperCompany" type="xs:string"/>
+  <xs:element name="Legal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Copyright"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Copyright" type="xs:string"/>
+  <xs:element name="Misc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FileNumber"/>
+        <xs:element ref="Data"/>
+        <xs:element ref="Dependencies"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FileNumber" type="xs:integer"/>
+  <xs:element name="Data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Volume"/>
+        <xs:element ref="Unit"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Volume" type="xs:decimal"/>
+  <xs:element name="Unit" type="xs:NCName"/>
+  <xs:element name="Dependencies" type="Component"/>
+  <xs:complexType name="Component">
+    <xs:sequence>
+      <xs:element ref="Component"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Component">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ComponentName"/>
+        <xs:element ref="ComponentVersion"/>
+        <xs:element ref="ComponentHomepage"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="Status"/>
+          <xs:element ref="ReleaseDate"/>
+          <xs:element ref="Type"/>
+          <xs:element ref="MainTech"/>
+        </xs:sequence>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ComponentName" type="xs:string"/>
+  <xs:element name="ComponentVersion" type="xs:decimal"/>
+  <xs:element name="ComponentHomepage" type="xs:anyURI"/>
+  <xs:element name="Status" type="xs:NCName"/>
+  <xs:element name="ReleaseDate" type="xs:string"/>
+  <xs:element name="Type" type="xs:NCName"/>
+  <xs:element name="MainTech" type="xs:string"/>
+</xs:schema>

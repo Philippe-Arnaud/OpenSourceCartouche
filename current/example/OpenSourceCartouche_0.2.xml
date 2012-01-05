@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cartouche SYSTEM "http://www.opensourcecartouche.org/dtd/0.1.dtd">
+    <metadata>
+        <author>
+            <name>Philippe-Arnaud HARANGER</name>
+#            <email>philippe-arnaud.haranger@atos.net</email>
+            <comment>This cartouche is for example purpose and not to be used AS IS</comment>
+        </author>
+        <reviewer>
+            <name>Raphaël Semeteys</name>
+            <email>raphaël.semeteys@atos.net</email>
+            <reviewDate>2011-09-02</reviewDate>
+            <comment>This cartouche is correct and I approve its content</comment>
+        </reviewer>
+        <dates>
+            <creation>2011-09-01</creation>
+            <update>2011-09-03</update>
+            <validation>2011-09-03</validation>
+        </dates>
+#        <cartoucheVersion>0.2</cartoucheVersion>
+    </metadata>
+
+    <component>
+        <name>Open Source Cartouche</name>
+        <version>0.2</version>
+#       <status>Beta</status>
+        <releaseDate>11/05/2011</releaseDate>
+        <homepage>http://www.opensourcecartouche.org</homepage>
+        <description>Open Source identification method</description>
+        <archetype>Methodology</archetype>
+        <vendor>Open Source Center</vendor>
+        <tags>Open, FLOSS, Identification, Method</tags>
+        <mainTech>Open Document Format</mainTech>
+        <checksum>MD5/748872f003c34f528649b360853c6c4c</checksum>
+    </component>
+
+    <license>
+        <name>GNU Free Documentation License</name>
+        <version>1.3</version>
+        <homepage>http://www.gnu.org/licenses/fdl.html</homepage>
+    </license>
+    <team>
+        <number>2</number>
+        <developers>
+            <developer>
+                <name>Philippe-Arnaud HARANGER</name>
+                <email>philippe-arnaud.haranger@atosorigin.com</email>
+                <company>Atos</company>
+            <developer>
+        </developers>
+        <contributors>
+            <contributor>
+                <name>Raphaël Semeteys</name>
+                <email>raphaël.semeteys@atos.net</email>
+                <company>Atos</company>
+            </contributor>
+        </contributors>
+    </team>
+    <legal>
+        <copyright>Atos</copyright>
+        <patents>
+            <number>US/4405829</number>
+            <name>Cryptography communications system and method</name>
+            <publicationDate>1983-09-20</publicationDate>
+            <description>A cryptography communications system and method...</description>
+        </patents>
+        <ciphers>
+            <cipher>
+                <name>RSA</name>
+                <exportResctictions>IR</exportResctictions>
+            </cipher>
+        </ciphers>
+    </Legal>
+    <misc>
+        <comment>Blah, blah, blah</comment>
+#        <dependencies>Python 2.3</dependencies>
+        <fileNumber>14</fileNumber>
+        <data>
+            <fileNumber>2</fileNumber>
+            <fileNumber>Mbyte</fileNumber>
+        </data>
+
+        <Dependencies>
+            <Component>
+                <ComponentVersion>3.2</ComponentVersion>
+                <ComponentHomepage>http://www.libreoffice.org</ComponentHomepage>
+            </Component>
+        </Dependencies>
+    </Misc>
+</Cartouche>
